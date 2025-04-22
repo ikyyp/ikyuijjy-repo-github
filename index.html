@@ -1,0 +1,144 @@
+<!DOCTYPE html><html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vintage Class</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+    body {
+      background: linear-gradient(135deg, #1d1f27, #32343f);
+      color: #fff;
+      overflow-x: hidden;
+    }
+    header {
+      text-align: center;
+      padding: 2rem 1rem;
+      animation: fadeInDown 1s ease-in-out;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      color: #00bcd4;
+      font-family: 'Orbitron', sans-serif;
+      animation: textGlow 2s ease-in-out infinite alternate;
+    }
+    @keyframes textGlow {
+      from { text-shadow: 0 0 10px #00bcd4; }
+      to { text-shadow: 0 0 20px #00e5ff; }
+    }
+    .wali-kelas {
+      text-align: center;
+      margin: 1rem 0;
+      font-size: 1.2rem;
+      animation: pulse 2s infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); opacity: 1; }
+      50% { transform: scale(1.05); opacity: 0.8; }
+    }
+    .section-title {
+      text-align: center;
+      font-size: 1.8rem;
+      color: #ffca28;
+      margin: 2rem 0 1rem;
+    }
+    .card {
+      background: #2d2f3b;
+      margin: 1rem;
+      padding: 1rem;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+      transition: transform 0.4s ease, background 0.4s ease;
+      animation: floatUp 0.6s ease forwards;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      background: #3a3c4a;
+    }
+    @keyframes floatUp {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .footer {
+      text-align: center;
+      font-size: 1rem;
+      color: #ccc;
+      margin-top: 3rem;
+      padding: 2rem;
+    }
+    .btn {
+      background-color: #00bcd4;
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      margin: 10px;
+      border-radius: 25px;
+      cursor: pointer;
+      transition: background 0.3s, transform 0.3s;
+    }
+    .btn:hover {
+      background-color: #00acc1;
+      transform: scale(1.05);
+    }
+    .quote {
+      text-align: center;
+      font-style: italic;
+      color: #a0f0ff;
+      margin: 2rem;
+      animation: fadeIn 2s ease-in-out;
+    }
+    @keyframes fadeInDown {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Selamat Datang di Website Vintage Class</h1>
+  </header>  <div class="wali-kelas">
+    Wali Kelas: <strong>Desmiati, S.Pd., M.Pd</strong>
+  </div>  <div class="section-title">Total Siswa Vintage Class: 28 Siswa dan Siswi</div>  <div class="card">Identitas murid dan informasi lainnya dimasukkan di sini...</div>  <div class="section-title">Ranking Perokok (Jangan Ditiru!)</div>
+  <div class="card">
+    1. Aulia Rahman – Merokok tiap hari, bisa futsal 1 jam tanpa ganti. Paru-paru 3?
+    <br>2. Aprilio Habibi – Lumayan, tapi tahu waktu dan tempat.
+    <br>3. Haikal Akbar – Ngikut-ngikut.
+  </div>  <div class="section-title">Ranking Kelas</div>
+  <div class="card">
+    1. Miska Novalia
+    <br>2. Muhammad Aditya Saputra
+    <br>3. Putri Zakiya Azzahra
+    <br>4. M. Haikal Dwi
+  </div>  <div class="section-title">Jago Main Futsal</div>
+  <div class="card">
+    1. M. Insan Kamil
+    <br>2. Muhammad Rizky
+    <br>3. Dan lain-lain (semua jago, jangan kecil hati ya!)
+  </div>  <div class="section-title">Struktur Kelas</div>
+  <div class="card">
+    Ketua Kelas: Muhammad Aditya Saputra
+    <br>Wakil Ketua Kelas: Muhammad Satria Alfaza
+    <br>Bendahara: Putri Zakiya Azzahra
+    <br>Sekretaris 1: Miska Novalia
+    <br>Sekretaris 2: Nadzira Ulfa
+  </div>  <div class="quote">“Terima kasih telah mampir dan melihat website Vintage Class.”</div>  <div class="section-title">Hubungi Kami</div>
+  <div style="text-align: center;">
+    <a href="https://wa.me/62895321345547?text=Halo%20saya%20ada%20saran%20untuk%20website%20Vintage%20Class" class="btn">Hubungi Admin 1</a>
+    <a href="https://wa.me/6285764413880?text=Halo%20saya%20ada%20saran%20untuk%20website%20Vintage%20Class" class="btn">Hubungi Admin 2</a>
+    <br><br>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLScvSAq8G5Hi6UwrfQrpaRTQOjxlkJ0OgDmPaF6tGER-L52PUQ/viewform?usp=sf_link" class="btn">Beri Masukan via Google Form</a>
+  </div>  <div class="footer">
+    Website ini terus dikembangkan oleh <strong>Ikyy</strong> (pembuat website) dan <strong>Adit</strong> (pengumpul data siswa).
+    <br>Jangan lupa follow IG kami: <a href="https://www.instagram.com/_vintage.class?igsh=c3I5OHZoYXllN2Rw" style="color: #ffca28; text-decoration: underline;">@_vintage.class</a>
+  </div>
+</body>
+</html>
